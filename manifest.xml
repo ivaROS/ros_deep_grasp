@@ -1,0 +1,14 @@
+<package>
+  <description brief="ros_deep_grasp">
+
+     ros_deep_grasp
+
+  </description>
+  <author>ORS2018</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ros_deep_grasp</url>
+
+</package>
+
+
