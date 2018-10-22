@@ -209,7 +209,8 @@ if __name__ == '__main__':
     print('Loaded network {:s}'.format(tfmodel))
 
     #im_names = ['rgd_0076Cropped320.png','rgd_0095.png','pcd0122r_rgd_preprocessed_1.png','pcd0875r_rgd_preprocessed_1.png','resized_0875_2.png']
-    im_names = ['pcd0100r_rgd_preprocessed_1.png','pcd0266r_rgd_preprocessed_1.png','pcd0882r_rgd_preprocessed_1.png','rgd_0000Cropped320.png']
+    #im_names = ['pcd0100r_rgd_preprocessed_1.png','pcd0266r_rgd_preprocessed_1.png','pcd0882r_rgd_preprocessed_1.png','rgd_0000Cropped320.png']
+    im_names = ['test.jpg','test2.jpg','test3.jpeg','pcd0100r_rgd_preprocessed_1.png']
     for im_name in im_names:
         print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
         print('Demo for data/demo/{}'.format(im_name))
