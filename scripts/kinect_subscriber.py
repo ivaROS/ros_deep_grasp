@@ -7,7 +7,7 @@ from cv_bridge import CvBridge, CvBridgeError
 
 
 def get_image(show=False):
-    print("CALLING GET_KINECT_IMAGE")
+    #print("CALLING GET_KINECT_IMAGE")
     rospy.init_node("kinect_subscriber")
     image = rospy.wait_for_message("/camera/rgb/image_color", Image)
 

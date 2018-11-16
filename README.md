@@ -1,1 +1,1 @@
-rosrun ros_deep_grasp demo_graspRGD.py --net res50 --dataset grasp
+rosrun ros_deep_grasp grasp.py --net res50 --dataset grasp
