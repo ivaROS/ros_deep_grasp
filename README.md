@@ -22,16 +22,18 @@ If you encounter any questions, please contact me at fujenchu[at]gatech[dot]edu
 ### Installation 
  - Please follow the instructions in our [original repo](https://github.com/ivalab/grasp_multiObject_multiGrasp) for DeepGrasp
  - Please follow the instructions in [ROS website](https://www.ros.org/) to install ROS (we tested on Indigo)
+ - Please follow the instructions in [wiki](http://wiki.ros.org/freenect_launch) to install freenect
 
 ### Usage
+open ROS master
 ```
 roscore
 ```
-
+run freenect for vision input
 ```
 roslaunch freenect_launch freenect.launch
 ```
-
+run grasp node
 ```
 rosrun ros_deep_grasp grasp.py --net res50 --dataset grasp
 ```
