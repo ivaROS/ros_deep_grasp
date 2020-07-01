@@ -1,3 +1,5 @@
+# ros_deep_grasp
+
 This is the ROS implementation of our RA-L work '[Real-world Multi-object, Multi-grasp Detection](https://github.com/ivalab/grasp_multiObject_multiGrasp)'. The detector takes RGB-D image input and predicts multiple grasp candidates for a single object or multiple objects, in a single shot. The original arxiv paper can be found [here](https://arxiv.org/pdf/1802.00520.pdf). The final version will be updated after publication process.
 
 If you find it helpful for your research, please consider citing:
